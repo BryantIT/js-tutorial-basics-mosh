@@ -1,6 +1,6 @@
-let name = 'Bryant'
+// let name = 'Bryant'
 
-console.log(name)
+// console.log(name)
 
 // Cannot be a reserved keyword
 // Should be meaningful
@@ -8,5 +8,8 @@ console.log(name)
 // Cannot contain a space or hyphen
 // Are case-sensitive
 
-let firstName = 'Bryant'
-let lastName = 'Richards'
+// let firstName = 'Bryant'
+
+// let interestRate = 0.3
+// const interestRate = 0.3
+// interestRate = 1 // Will cause an error
