@@ -49,8 +49,23 @@
 // console.log(selectedColors.length)
 // console.log(selectedColors[3])
 
+// Performing a Task
 function greet(name, lastName) {
   console.log('Hello World ' + name + ' ' + lastName)
 }
 
+// Calculates value
+function square(number) {
+  // adding my own logic for fun
+  let num =  number * number
+  console.log(num)
+  if (num < 200) {
+    return console.log('It is so small')
+  } else {
+    return console.log('It is so big')
+  }
+}
+
 greet('Bryant', 'Richards')
+
+square(1)
