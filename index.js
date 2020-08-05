@@ -13,3 +13,10 @@
 // let interestRate = 0.3
 // const interestRate = 0.3
 // interestRate = 1 // Will cause an error
+
+// Primitives
+let name = 'Bryant' // String Literal
+let age = 30 // Number Literal
+let isApproved = true // Boolean Literal
+let firstName = undefined // Not common
+let selectedColor = null // Clears the value of a variable 
