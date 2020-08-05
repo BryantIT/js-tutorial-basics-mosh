@@ -22,8 +22,23 @@
 // let selectedColor = null // Clears the value of a variable
 
 // Dynamic
-let name = 'Bryant'
-let age = 38
-let isApproved = true
-let firstName = undefined
-let selectedColor = null
+// let name = 'Bryant'
+// let age = 38
+// let isApproved = true
+// let firstName = undefined
+// let selectedColor = null
+
+// Reference Types
+
+let person = {
+  name: 'Bryant',
+  age: 38
+}
+// Dot Notation
+person.name = 'Richards'
+
+// Bracket Notation
+let selection = 'name'
+person[selection] = 'The Guy'
+
+console.log(person.name)
