@@ -30,15 +30,21 @@
 
 // Reference Types
 
-let person = {
-  name: 'Bryant',
-  age: 38
-}
+// let person = {
+//   name: 'Bryant',
+//   age: 38
+// }
 // Dot Notation
-person.name = 'Richards'
+// person.name = 'Richards'
 
 // Bracket Notation
-let selection = 'name'
-person[selection] = 'The Guy'
+// let selection = 'name'
+// person[selection] = 'The Guy'
+//
+// console.log(person.name)
 
-console.log(person.name)
+
+let selectedColors = ['red', 'blue', 'green', 'black', 'purple']
+selectedColors[2] = 'white'
+console.log(selectedColors.length)
+console.log(selectedColors[3])
