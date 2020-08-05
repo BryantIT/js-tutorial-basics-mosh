@@ -44,7 +44,13 @@
 // console.log(person.name)
 
 
-let selectedColors = ['red', 'blue', 'green', 'black', 'purple']
-selectedColors[2] = 'white'
-console.log(selectedColors.length)
-console.log(selectedColors[3])
+// let selectedColors = ['red', 'blue', 'green', 'black', 'purple']
+// selectedColors[2] = 'white'
+// console.log(selectedColors.length)
+// console.log(selectedColors[3])
+
+function greet(name, lastName) {
+  console.log('Hello World ' + name + ' ' + lastName)
+}
+
+greet('Bryant', 'Richards')
